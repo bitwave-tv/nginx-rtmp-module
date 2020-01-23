@@ -437,7 +437,7 @@ ngx_rtmp_mpegts_init_encryption(ngx_rtmp_mpegts_file_t *file,
 
 ngx_int_t
 ngx_rtmp_mpegts_open_file(ngx_rtmp_mpegts_file_t *file, u_char *path,
-    ngx_log_t *log, ngx_rtmp_codec_ctx_t *codec_ctx, ngx_uint_t mpegts_cc)
+    ngx_uint_t access, ngx_log_t *log, ngx_rtmp_codec_ctx_t *codec_ctx, ngx_uint_t mpegts_cc)
 {
     file->log = log;
 
